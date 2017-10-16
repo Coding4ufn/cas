@@ -53,7 +53,7 @@ Do not forget to commit all changes and push changes upstream, creatng a new rem
 In the project's `gradle.properties`, change the project version to the release version. (i.e. `5.0.0-RC1`). Then build the project using the following command:
 
 ```bash
-./gradlew clean assemble -x test -x check --no-daemon
+./gradlew clean assemble -x test -x check --no-daemon -DpublishReleases=true
 ```
 
 ### Release
