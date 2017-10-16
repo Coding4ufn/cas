@@ -24,7 +24,6 @@ current project members *vouch* for you.
 signing.keyId=7A24P9QB
 signing.password=P@$$w0rd
 signing.secretKeyRingFile=/Users/example/.gnupg/secring.gpg
-org.gradle.daemon=false
 ```
 
 - Checkout the CAS project: `git clone git@github.com:apereo/cas.git cas-server`
@@ -54,7 +53,7 @@ Do not forget to commit all changes and push changes upstream, creatng a new rem
 In the project's `gradle.properties`, change the project version to the release version. (i.e. `5.0.0-RC1`). Then build the project using the following command:
 
 ```bash
-./gradlew clean assemble install -x test --parallel -x check
+./gradlew clean assemble install -x test -x check --no-daemon
 ```
 
 ### Release
