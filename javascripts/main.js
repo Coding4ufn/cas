@@ -335,6 +335,11 @@ function generateDependencyLangFragments() {
           <div class='dropdown-divider'></div> \
           <a class='dropdown-item' href='https://github.com/apereo/cas-services-management-overlay'>CAS Management Maven Overlay</a> \
           <a class='dropdown-item' href='https://github.com/apereo/cas-services-management-gradle-overlay'>CAS Management Gradle Overlay</a> \
+	  <div class='dropdown-divider'></div> \
+	  <a class='dropdown-item' href='https://github.com/apereo/cas-configserver-overlay'>CAS Configuration Server Overlay</a> \
+	  <a class='dropdown-item' href='https://github.com/apereo/cas-discoveryserver-overlay'>CAS Discovery Server Overlay</a> \
+	  <a class='dropdown-item' href='https://github.com/apereo/cas-bootadmin-overlay'>CAS Spring Boot Admin Server</a> \
+	  <div class='dropdown-divider'></div> \
       </div> \
   </li> \
   </ul> \
