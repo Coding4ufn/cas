@@ -102,7 +102,7 @@ and if the release process here had you create a new branch.
 - [CAS Webapp Maven Overlay](https://github.com/apereo/cas-overlay-template)
 - [CAS Webapp Gradle Overlay](https://github.com/apereo/cas-gradle-overlay-template)
 - [CAS Management WebApp Maven Overlay](https://github.com/apereo/cas-services-management-overlay)
-- [CAS Management Webapp Gradle Overlay](https://github.com/apereo/cas-services-management--gradle-overlay)
+- [CAS Management Webapp Gradle Overlay](https://github.com/apereo/cas-services-management-gradle-overlay)
 
 Optionally:
 
